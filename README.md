@@ -1,6 +1,34 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To run via PowerShell: $env:NODE_OPTIONS = "--openssl-legacy-provider"
+To run npm server -p 8000, run 1st: set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+VSCode extension: ES7 React/Redux/GraphQL/React-Native snippets
+
+Install:
+npm i react-router-dom
+npm i react-bootstrap bootstrap
+
+Add to packages.jhson
+"scripts": {
+"server": "json-server --watch db.json --port 5000"
+}
+
+To start Json Server: npm run server
+To start the GUI: npm start
+
+Chrome extension: https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi
+Publish my code to the Internet: https://www.netlify.com/
+
+Install Vite for production like build:
+npm create vite@latest
+Need to install the following packages:
+create-vite@4.0.0
+Ok to proceed? (y) y
+√ Project name: ... scrimba-react
+√ Select a framework: » React
+√ Select a variant: » JavaScript
 
 ## Available Scripts
 

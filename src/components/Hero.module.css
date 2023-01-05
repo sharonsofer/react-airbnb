@@ -10,11 +10,11 @@ section {
 .hero_photo {
     max-width: 400px;
     align-self: center;
-    background-image: url("../../public/images/photo_grid.PNG");
+    background-image: url("../../public/images/photo_grid.png");
     background-repeat: no-repeat;
     background-size: contain;
-    height: 300px;
-    width: 500px;
+    height: 232px;
+    width: 395px;
 }
 
 .hero_header {
@@ -25,3 +25,4 @@ section {
     margin-top: 0;
     max-width: 400px;
 }
+

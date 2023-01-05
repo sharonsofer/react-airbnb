@@ -6,7 +6,7 @@ nav {
 }
 
 div.nav_logo {
-    background-image: url("../../public/images/Airbnb-Logo.jpg");
+    background-image: url("../../public/images/airbnb.png");
     background-repeat: no-repeat;
     background-size: contain;
     height: 50px;
